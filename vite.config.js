@@ -1,9 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: "/github.com/Alpy81",
+  base: "/github.com/Alpy81/",
   ...(command !== "serve" && { base: "/gym-studio-react/" }),
-});
+}));
