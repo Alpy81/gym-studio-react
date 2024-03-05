@@ -6,7 +6,7 @@ import { SlNote } from "react-icons/sl";
 const skillsData = [
   {
     name: "Gold Card",
-    price: 499,
+    price: 59,
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
@@ -21,8 +21,8 @@ const skillsData = [
     aosDelay: "0",
   },
   {
-    name: "Flexible Card",
-    price: 899,
+    name: "Silver Card",
+    price: 29,
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
@@ -38,7 +38,7 @@ const skillsData = [
   },
   {
     name: "Platinum Card",
-    price: 1299,
+    price: 79,
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
